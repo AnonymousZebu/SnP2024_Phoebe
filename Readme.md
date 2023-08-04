@@ -83,12 +83,12 @@ For example the following will check for the strong unlinkability for the Basic 
 
 ### Limitations
 
--- To specify the number of sessions, the domain $D$, the user
+- To specify the number of sessions, the domain $D$, the user
 needs to change the specific Example file, then reinterpret/recompile the code.
 (TODO) We will refactor the code to make them command line arguments.
--- All phoebe formulas and protocol descriptions in the example files
+- All phoebe formulas and protocol descriptions in the example files
 are written with Haskell data constructors. 
 (TODO) We will write parsers to have more user-friendly syntax.
--- To implement another example, the user also need to explicitly construct 
+- To implement another example, the user also need to explicitly construct 
 the agents, see one of the current examples on how it's done. (TODO) This will be
 automated in the future.
